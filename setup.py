@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages, Extension
-from Cython.Build import build_ext
+from Cython.Build import build_ext, cythonize
 
 
 with open('README.md') as f:
@@ -9,7 +9,7 @@ with open('LICENSE') as f:
 
 setup(
     name='hcapy',
-    version='0.0.1',
+    version='0.0.2',
     description='hca2wav wrapper working on Python3.',
     long_description=readme,
     author='Cryptomelone',
