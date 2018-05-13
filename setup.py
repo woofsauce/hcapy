@@ -2,7 +2,7 @@ from setuptools import setup, find_packages, Extension
 from Cython.Build import build_ext, cythonize
 
 
-with open('README.md') as f:
+with open('README.md', encoding='utf-8') as f:
     readme = f.read()
 with open('LICENSE') as f:
     li = f.read()
