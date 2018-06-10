@@ -13,7 +13,7 @@ hca2wav wrapper working on Python3.
 ## インストール
 
 ```
-pip3 install git+ssh://git@github.com/Cryptomelone/hcapy.git
+pip3 install git+ssh://git@github.com/krepe-suZette/hcapy.git
 ```
 
 ## 使い方
