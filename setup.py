@@ -17,6 +17,9 @@ setup(
     license=li,
     url='https://github.com/Cryptomelone/hcapy',
     packages=find_packages(exclude=('tests',)),
+    setup_requires=[
+        "Cython"
+    ],
     ext_modules=[
         Extension("hcapy", sources=["module.pyx", "hca2wav/src/clHCA.cpp"], language="c++")
     ],
